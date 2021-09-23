@@ -1,0 +1,33 @@
+2021-09-23 12:01:31,722  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:01:31,742  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:02:46,123  INFO [main] TC_001_Amazon:104 - ****************************** Browser is closed *****************************************
+2021-09-23 12:02:46,126  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:02:46,126  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:10:31,917  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:10:31,928  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:11:02,836  INFO [main] TC_001_Amazon:104 - ****************************** Browser is closed *****************************************
+2021-09-23 12:11:02,883  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:11:02,883  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:11:24,672  INFO [main] TC_001_Amazon:104 - ****************************** Browser is closed *****************************************
+2021-09-23 12:11:24,675  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:11:24,675  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:11:50,581  INFO [main] TC_001_Amazon:104 - ****************************** Browser is closed *****************************************
+2021-09-23 12:11:50,628  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:11:50,628  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:14:48,486  INFO [main] TC_001_Amazon:104 - ****************************** Browser is closed *****************************************
+2021-09-23 12:14:48,489  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:14:48,489  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:16:53,014  INFO [main] TC_001_Amazon:104 - ****************************** Browser is closed *****************************************
+2021-09-23 12:16:53,017  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:16:53,017  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:19:43,329  INFO [main] TC_001_Amazon:104 - ****************************** Browser is closed *****************************************
+2021-09-23 12:45:20,094  INFO [main] TC_001_Amazon:44 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:45:20,108  INFO [main] TC_001_Amazon:45 - launching chrome broswer
+2021-09-23 12:46:01,189  INFO [main] TC_002_Amazon:38 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:46:01,197  INFO [main] TC_002_Amazon:39 - launching chrome broswer
+2021-09-23 12:48:23,056  INFO [main] TC_002_Amazon:94 - ****************************** Browser is closed *****************************************
+2021-09-23 12:49:00,673  INFO [main] TC_002_Amazon:38 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 12:49:00,690  INFO [main] TC_002_Amazon:39 - launching chrome broswer
+2021-09-23 13:05:28,267  INFO [main] TC_002_Amazon:41 - ****************************** Starting test cases execution  *****************************************
+2021-09-23 13:05:28,286  INFO [main] TC_002_Amazon:42 - launching chrome broswer
+2021-09-23 13:08:52,919  INFO [main] TC_002_Amazon:104 - ****************************** Browser is closed *****************************************

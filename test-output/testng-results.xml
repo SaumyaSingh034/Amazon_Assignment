@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="205796" started-at="2021-09-23T13:05:27 IST" finished-at="2021-09-23T13:08:52 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="205796" started-at="2021-09-23T13:05:27 IST" finished-at="2021-09-23T13:08:52 IST">
+      <class name="com.amazon.testCases.TC_002_Amazon">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testCases.TC_002_Amazon@106cc338]" name="setUp" is-config="true" duration-ms="21524" started-at="2021-09-23T13:05:28 IST" finished-at="2021-09-23T13:05:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tc_002_add_more_items_and_validate(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.testCases.TC_002_Amazon@106cc338]" name="tc_002_add_more_items_and_validate" duration-ms="180476" started-at="2021-09-23T13:05:51 IST" data-provider="getProductName" finished-at="2021-09-23T13:08:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hair Dryer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy A1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_add_more_items_and_validate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testCases.TC_002_Amazon@106cc338]" name="tearDown" is-config="true" duration-ms="1205" started-at="2021-09-23T13:08:51 IST" finished-at="2021-09-23T13:08:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testCases.TC_002_Amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
