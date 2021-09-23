@@ -20,6 +20,9 @@ public class CartPage extends BaseClass{
 	@FindBy(xpath="//div[@class='a-column a-span2 a-text-right sc-item-right-col a-span-last']/p")
 	WebElement itemPrice;
 	
+	@FindBy(xpath="//div[@class='a-column a-span2 a-text-right sc-item-right-col a-span-last']")
+	List<WebElement> itemsPrices;
+	
 	@FindBy(xpath="//span[@id='sc-subtotal-amount-activecart']/span")
 	WebElement subtotal;
 	
@@ -58,6 +61,18 @@ public class CartPage extends BaseClass{
 		}
 		return items;
 	}
+	
+	public ArrayList<String> getItemPricefProducts()
+	{
+		ArrayList<String> prices = new ArrayList<String>();
+		for(int i=0;i<itemsPrices.size();i++)
+		{
+			String item = itemsPrices.get(i).getText().trim();
+			prices.add(item);
+		}
+		return prices;
+	}
+	
 	
 	public String getItemPriceOnCartPage()
 	{

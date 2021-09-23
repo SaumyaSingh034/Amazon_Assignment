@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="205796" started-at="2021-09-23T13:05:27 IST" finished-at="2021-09-23T13:08:52 IST">
+  <suite name="Default suite" duration-ms="267931" started-at="2021-09-23T17:11:36 IST" finished-at="2021-09-23T17:16:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="205796" started-at="2021-09-23T13:05:27 IST" finished-at="2021-09-23T13:08:52 IST">
-      <class name="com.amazon.testCases.TC_002_Amazon">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testCases.TC_002_Amazon@106cc338]" name="setUp" is-config="true" duration-ms="21524" started-at="2021-09-23T13:05:28 IST" finished-at="2021-09-23T13:05:49 IST">
+    <test name="Default test" duration-ms="267931" started-at="2021-09-23T17:11:36 IST" finished-at="2021-09-23T17:16:04 IST">
+      <class name="com.amazon.testCases.TC_001_Amazon">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="setUp" is-config="true" duration-ms="18993" started-at="2021-09-23T17:11:37 IST" finished-at="2021-09-23T17:11:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tc_002_add_more_items_and_validate(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.testCases.TC_002_Amazon@106cc338]" name="tc_002_add_more_items_and_validate" duration-ms="180476" started-at="2021-09-23T13:05:51 IST" data-provider="getProductName" finished-at="2021-09-23T13:08:51 IST">
+        <test-method status="PASS" signature="tc_01_add_One_Item_In_Cart_and_Validate_the_item(java.lang.String)[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tc_01_add_One_Item_In_Cart_and_Validate_the_item" duration-ms="22115" started-at="2021-09-23T17:11:57 IST" data-provider="getProductName" finished-at="2021-09-23T17:12:19 IST">
           <params>
             <param index="0">
               <value>
                 <![CDATA[Hair Dryer]]>
               </value>
             </param>
-            <param index="1">
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_add_One_Item_In_Cart_and_Validate_the_item -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tearDown" is-config="true" duration-ms="1790" started-at="2021-09-23T17:12:19 IST" finished-at="2021-09-23T17:12:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="setUp" is-config="true" duration-ms="13230" started-at="2021-09-23T17:12:21 IST" finished-at="2021-09-23T17:12:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tc_01_add_One_Item_In_Cart_and_Validate_the_item(java.lang.String)[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tc_01_add_One_Item_In_Cart_and_Validate_the_item" duration-ms="36282" started-at="2021-09-23T17:12:34 IST" data-provider="getProductName" finished-at="2021-09-23T17:13:10 IST">
+          <params>
+            <param index="0">
               <value>
                 <![CDATA[Samsung Galaxy A1]]>
               </value>
@@ -26,12 +40,69 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_002_add_more_items_and_validate -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testCases.TC_002_Amazon@106cc338]" name="tearDown" is-config="true" duration-ms="1205" started-at="2021-09-23T13:08:51 IST" finished-at="2021-09-23T13:08:52 IST">
+        </test-method> <!-- tc_01_add_One_Item_In_Cart_and_Validate_the_item -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tearDown" is-config="true" duration-ms="1409" started-at="2021-09-23T17:13:10 IST" finished-at="2021-09-23T17:13:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.testCases.TC_002_Amazon -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="setUp" is-config="true" duration-ms="36365" started-at="2021-09-23T17:13:12 IST" finished-at="2021-09-23T17:13:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tc_01_add_One_Item_In_Cart_and_Validate_the_item(java.lang.String)[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tc_01_add_One_Item_In_Cart_and_Validate_the_item" duration-ms="29060" started-at="2021-09-23T17:13:48 IST" data-provider="getProductName" finished-at="2021-09-23T17:14:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Airpods]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_add_One_Item_In_Cart_and_Validate_the_item -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tearDown" is-config="true" duration-ms="2530" started-at="2021-09-23T17:14:17 IST" finished-at="2021-09-23T17:14:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="setUp" is-config="true" duration-ms="39963" started-at="2021-09-23T17:14:20 IST" finished-at="2021-09-23T17:15:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tc_01_add_One_Item_In_Cart_and_Validate_the_item(java.lang.String)[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tc_01_add_One_Item_In_Cart_and_Validate_the_item" duration-ms="25757" started-at="2021-09-23T17:15:00 IST" data-provider="getProductName" finished-at="2021-09-23T17:15:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PS4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_add_One_Item_In_Cart_and_Validate_the_item -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tearDown" is-config="true" duration-ms="999" started-at="2021-09-23T17:15:26 IST" finished-at="2021-09-23T17:15:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="setUp" is-config="true" duration-ms="20154" started-at="2021-09-23T17:15:27 IST" finished-at="2021-09-23T17:15:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tc_01_add_One_Item_In_Cart_and_Validate_the_item(java.lang.String)[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tc_01_add_One_Item_In_Cart_and_Validate_the_item" duration-ms="16063" started-at="2021-09-23T17:15:47 IST" data-provider="getProductName" finished-at="2021-09-23T17:16:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mivi Play 5 Watt Truly Wireless Bluetooth Portable Speaker (Black)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_add_One_Item_In_Cart_and_Validate_the_item -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testCases.TC_001_Amazon@dbf57b3]" name="tearDown" is-config="true" duration-ms="1099" started-at="2021-09-23T17:16:03 IST" finished-at="2021-09-23T17:16:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testCases.TC_001_Amazon -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

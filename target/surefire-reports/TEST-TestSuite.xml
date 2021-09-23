@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="387.004" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="D:\Selenium\FrameworkPractice\AmazonAssignment\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Selenium\FrameworkPractice\AmazonAssignment\target\test-classes;D:\Selenium\FrameworkPractice\AmazonAssignment\target\classes;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Asus\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Asus\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Asus\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Asus\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Asus\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Asus\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Asus\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Asus\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Asus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Asus\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Asus\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Asus\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Asus\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Asus\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Asus\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Asus\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Asus\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Asus\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Asus\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Asus\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Asus\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Asus\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Asus\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Asus\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Asus\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Asus\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Asus\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Asus\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Asus\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Asus\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire3548142973736642042\surefirebooter780373974398691749.jar C:\Users\Asus\AppData\Local\Temp\surefire3548142973736642042 2021-09-23T17-40-22_376-jvmRun1 surefire8419221027884315590tmp surefire_06216021292760209441tmp"/>
+    <property name="surefire.test.class.path" value="D:\Selenium\FrameworkPractice\AmazonAssignment\target\test-classes;D:\Selenium\FrameworkPractice\AmazonAssignment\target\classes;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Asus\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Asus\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Asus\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Asus\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Asus\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Asus\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Asus\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Asus\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Asus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Asus\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Asus\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Asus\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Asus\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Asus\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Asus\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Asus\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Asus\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Asus\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Asus\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Asus\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Asus\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Asus\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Asus\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Asus\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Asus\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Asus\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Asus\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Asus\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Asus\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Asus\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Asus\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Asus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="D:\Selenium\FrameworkPractice\AmazonAssignment"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire3548142973736642042\surefirebooter780373974398691749.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="Asus"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Asus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Asus\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="D:\Selenium\FrameworkPractice\AmazonAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;D:\Selenium\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Asus\Desktop\SDET Testing\WebServices_API\SOAP\axis2-1.6.2\bin;C:\Program Files\Git\cmd;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Users\Asus\Downloads\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="tc_01_add_One_Item_In_Cart_and_Validate_the_item[Hair Dryer](1)" classname="com.amazon.testCases.TC_001_Amazon" time="28.242">
+    <system-out><![CDATA[09-23-2021 17:40:29 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 44 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:40:29 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 45 - launching chrome broswer
+Havells HD3151 1600 Watts Foldable Hair Dryer, 3 Heat (Hot/Cool/Warm) Settings with Cool Shot button (Turquoise)
+PRODUCT_PRICE1,069.00
+PRODUCT_PRICE_CART_PAGE1,069.00
+Subtotal Amount of Products are =   1,069.00
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 29101
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:40:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_01_add_One_Item_In_Cart_and_Validate_the_item[Samsung Galaxy A1](2)" classname="com.amazon.testCases.TC_001_Amazon" time="15.079">
+    <system-out><![CDATA[09-23-2021 17:41:19 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 95 - ****************************** Browser is closed *****************************************
+09-23-2021 17:41:19 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 44 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:41:19 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 45 - launching chrome broswer
+Samsung Galaxy A12 (White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers
+PRODUCT_PRICE16,499.00
+PRODUCT_PRICE_CART_PAGE16,499.00
+Subtotal Amount of Products are =   16,499.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 23980
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:41:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_01_add_One_Item_In_Cart_and_Validate_the_item[Airpods](3)" classname="com.amazon.testCases.TC_001_Amazon" time="13.174">
+    <system-out><![CDATA[09-23-2021 17:41:48 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 95 - ****************************** Browser is closed *****************************************
+09-23-2021 17:41:48 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 44 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:41:48 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 45 - launching chrome broswer
+Apple AirPods with Charging Case
+PRODUCT_PRICE12,990.00
+PRODUCT_PRICE_CART_PAGE12,990.00
+Subtotal Amount of Products are =   12,990.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 22390
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:41:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_01_add_One_Item_In_Cart_and_Validate_the_item[PS4](4)" classname="com.amazon.testCases.TC_001_Amazon" time="15.974">
+    <system-out><![CDATA[09-23-2021 17:42:12 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 95 - ****************************** Browser is closed *****************************************
+09-23-2021 17:42:12 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 44 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:42:12 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 45 - launching chrome broswer
+PS4 Marvel's Spider-Man: Miles Morales (PS4)
+PRODUCT_PRICE2,669.00
+PRODUCT_PRICE_CART_PAGE2,669.00
+Subtotal Amount of Products are =   2,669.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 21368
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:42:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_01_add_One_Item_In_Cart_and_Validate_the_item[Mivi Play 5 Watt Truly Wireless Bluetooth Portable Speaker (Black)](5)" classname="com.amazon.testCases.TC_001_Amazon" time="15.662">
+    <system-out><![CDATA[09-23-2021 17:42:40 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 95 - ****************************** Browser is closed *****************************************
+09-23-2021 17:42:40 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 44 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:42:40 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 45 - launching chrome broswer
+Mivi Play 5 Watt Truly Wireless Bluetooth Portable Speaker (Black)
+PRODUCT_PRICE799.00
+PRODUCT_PRICE_CART_PAGE799.00
+Subtotal Amount of Products are =   799.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 48980
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:42:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_002_add_more_items_and_validate[Hair Dryer, Samsung Galaxy A1](1)" classname="com.amazon.testCases.TC_002_Amazon" time="30.625">
+    <system-out><![CDATA[09-23-2021 17:43:07 TC_001_Amazon.java INFO  [main] testCases.TC_001_Amazon 95 - ****************************** Browser is closed *****************************************
+09-23-2021 17:43:07 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 39 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:43:07 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 40 - launching chrome broswer
+Samsung Galaxy A12 (White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers
+PRODUCT_PRICE [16,499.00, 1,069.00]
+PRODUCT_PRICE_CART_PAGE 1,069.00
+Subtotal Amount of Products are =   17,568.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 4879
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:43:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_002_add_more_items_and_validate[Samsung Galaxy A1, Airpods](2)" classname="com.amazon.testCases.TC_002_Amazon" time="27.474">
+    <system-out><![CDATA[09-23-2021 17:43:48 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 132 - ****************************** Browser is closed *****************************************
+09-23-2021 17:43:48 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 39 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:43:48 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 40 - launching chrome broswer
+Apple AirPods with Charging Case
+PRODUCT_PRICE [12,990.00, 16,499.00]
+PRODUCT_PRICE_CART_PAGE 16,499.00
+Subtotal Amount of Products are =   29,489.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 30635
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:43:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_002_add_more_items_and_validate[PS4, Samsung Galaxy A1](3)" classname="com.amazon.testCases.TC_002_Amazon" time="30.121">
+    <system-out><![CDATA[09-23-2021 17:44:31 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 132 - ****************************** Browser is closed *****************************************
+09-23-2021 17:44:31 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 39 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:44:31 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 40 - launching chrome broswer
+Samsung Galaxy A12 (White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers
+PRODUCT_PRICE [16,499.00, 2,669.00]
+PRODUCT_PRICE_CART_PAGE 2,669.00
+Subtotal Amount of Products are =   19,168.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 5398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:44:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_002_add_more_items_and_validate[Mivi Play 5 Watt Truly Wireless Bluetooth Portable Speaker (Black), Airpods](4)" classname="com.amazon.testCases.TC_002_Amazon" time="30.768">
+    <system-out><![CDATA[09-23-2021 17:45:15 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 132 - ****************************** Browser is closed *****************************************
+09-23-2021 17:45:15 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 39 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:45:15 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 40 - launching chrome broswer
+Apple AirPods with Charging Case
+PRODUCT_PRICE [12,990.00, 799.00]
+PRODUCT_PRICE_CART_PAGE 799.00
+Subtotal Amount of Products are =   13,789.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 13488
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:45:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc_002_add_more_items_and_validate[Mivi Play 5 Watt Truly Wireless Bluetooth Portable Speaker (Black), Hair Dryer](5)" classname="com.amazon.testCases.TC_002_Amazon" time="33.009">
+    <system-out><![CDATA[09-23-2021 17:46:03 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 132 - ****************************** Browser is closed *****************************************
+09-23-2021 17:46:03 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 39 - ****************************** Starting test cases execution  *****************************************
+09-23-2021 17:46:03 TC_002_Amazon.java INFO  [main] testCases.TC_002_Amazon 40 - launching chrome broswer
+Havells HD3151 1600 Watts Foldable Hair Dryer, 3 Heat (Hot/Cool/Warm) Settings with Cool Shot button (Turquoise)
+PRODUCT_PRICE [1,069.00, 799.00]
+PRODUCT_PRICE_CART_PAGE 799.00
+Subtotal Amount of Products are =   1,868.00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 30262
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 23, 2021 5:46:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
